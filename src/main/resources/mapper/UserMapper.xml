@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.suyu.secexample.sql.mapper.UserMapper">
+    <select id="listUser" resultType="com.suyu.secexample.sql.dao.User">
+        select * from mybatis.user;
+    </select>
+
+
+<!--    <select id="listUserByName" parameterType="com.suyu.secexample.sql.dao.pojo.UserQuery" resultType="com.suyu.secexample.sql.dao.User">-->
+<!--        select * from mybatis.user-->
+<!--        <where>-->
+<!--            <if test="name != null and name != ''">-->
+<!--                and `name` like concat('%',#{name},'%')-->
+<!--            </if>-->
+<!--        </where>-->
+<!--    </select>-->
+
+<!--    <select id="listUserByName" parameterType="com.suyu.secexample.sql.dao.pojo.UserQuery" resultType="com.suyu.secexample.sql.dao.User">-->
+<!--        select * from mybatis.user where name = #{name}-->
+<!--    </select>-->
+    <select id="listUserByName" parameterType="com.suyu.secexample.sql.dao.pojo.UserQuery" resultType="com.suyu.secexample.sql.dao.User">
+        select * from mybatis.user
+            <where>
+                <if test="name != null and name != ''">
+                    name = ${name}
+                </if>
+            </where>
+    </select>
+</mapper>

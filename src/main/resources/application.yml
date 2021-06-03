@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    username: root
+    password: woaini520
+    url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    cache: false
+  devtools:
+    restart:
+      enabled: true
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.suyu.secexample.sql.dao
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    com:
+      suyu:
+        secexample:
+          sql:
+            mapper:
+              UserMapper: DEBUG
