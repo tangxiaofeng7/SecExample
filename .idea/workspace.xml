@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a78f0932-1504-4a4c-a8a1-420458c09ee6" name="默认变更列表" comment="" />
+    <list default="true" id="a78f0932-1504-4a4c-a8a1-420458c09ee6" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/images/fastjson.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sql.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ssrf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/xss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +50,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1tLIoI8Sp6yN7FyE4aNzVOl7MlX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -68,20 +78,19 @@
       <recent name="com.suyu.secexample.ssrf.controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/doc" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,6 +115,7 @@
       <workItem from="1622605025804" duration="23021000" />
       <workItem from="1622704709338" duration="5763000" />
       <workItem from="1622710964470" duration="10269000" />
+      <workItem from="1622725668767" duration="522000" />
     </task>
     <servers />
   </component>
@@ -119,6 +129,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
