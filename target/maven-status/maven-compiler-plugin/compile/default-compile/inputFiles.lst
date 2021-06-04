@@ -1,0 +1,14 @@
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/ssrf/controller/ssrfcontroller.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/sql/service/UserService.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/sql/controller/sqlcontroller.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/xss/model/Person.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/sql/dao/pojo/UserQuery.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/fastjson/controller/fastjsoncontroller.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/xss/controller/xsscontroller.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/sql/mapper/UserMapper.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/sql/dao/User.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/ssrf/utils/HttpTool.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/SecexampleApplication.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/sql/service/impl/UserServiceImpl.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/fastjson/model/User.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/rce/controller/rcecontroller.java

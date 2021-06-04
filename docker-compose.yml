@@ -1,0 +1,25 @@
+version : '2'
+
+services:
+
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/vol/development
+    depends_on:
+      - mysql
+
+  mysql:
+    build: ./mysql
+    container_name: mysql-db
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: mybatis
+      MYSQL_ROOT_PASSWORD: woaini520
+      MYSQL_ROOT_HOST: '%'
+    restart: always

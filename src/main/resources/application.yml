@@ -2,8 +2,10 @@ spring:
   datasource:
     username: root
     password: woaini520
-    url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&useSSL=false
-    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&useSSL=false
+    url: jdbc:mysql://mysql-db:3306/mybatis?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+#    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   thymeleaf:
     cache: false
   devtools:

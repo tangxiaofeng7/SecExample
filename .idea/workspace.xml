@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a78f0932-1504-4a4c-a8a1-420458c09ee6" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/images/fastjson.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/rce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/sql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ssrf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/xss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/mybatis.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDK 位置" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -84,13 +85,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +119,7 @@
       <workItem from="1622704709338" duration="5763000" />
       <workItem from="1622710964470" duration="10269000" />
       <workItem from="1622725668767" duration="522000" />
+      <workItem from="1622779319900" duration="4051000" />
     </task>
     <servers />
   </component>
