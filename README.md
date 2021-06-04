@@ -1,6 +1,6 @@
 # SecExample
 
-包含漏洞：
+包含：
 
 * SQL 注入漏洞
 * XSS 漏洞
@@ -15,7 +15,10 @@ cd SecExample
 docker-compose up -d
 ```
 
+然后访问：http://localhost:8080
+
 ### 安装docker-compose
+
 - 安装 docker-compose [官方文档](https://docs.docker.com/compose/install/)
     - ```shell script
        # 在Linux安装
