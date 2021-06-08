@@ -22,7 +22,7 @@ public class fastjsoncontroller {
         System.out.println(ser1);
         String ser2 = JSON.toJSONString(user, SerializerFeature.WriteClassName);
         System.out.println(ser2);
-        return "fastjson";
+        return "fastjson/fastjson";
     }
 
     @PostMapping("/fastjsonoutput")
@@ -31,6 +31,6 @@ public class fastjsoncontroller {
         JSONObject result = new JSONObject(ser2);
         result.put("18",ser2.get("name"));
         model.addAttribute("result",result);
-        return "fastjsonoutput";
+        return "fastjson/fastjsonoutput";
     }
 }

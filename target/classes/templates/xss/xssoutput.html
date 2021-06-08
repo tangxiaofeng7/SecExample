@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Java漏洞靶场</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+</head>
+<body>
+
+<div style="padding: 40px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;">
+    <h1>Java漏洞演示平台</h1>
+    <button class="ui inverted secondary basic button"><a style="color: white" th:href="home">回到首页</a></button>
+</div>
+
+<script th:text="${myperson.name}"></script>
+
+</body>
+</html>

@@ -6,11 +6,11 @@ spring:
     url: jdbc:mysql://mysql-db:3306/mybatis?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
 #    driver-class-name: com.mysql.jdbc.Driver
     driver-class-name: com.mysql.cj.jdbc.Driver
-  thymeleaf:
-    cache: false
-  devtools:
-    restart:
-      enabled: true
+#  thymeleaf:
+#    cache: false
+#  devtools:
+#    restart:
+#      enabled: true
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml

@@ -12,7 +12,7 @@ public class ssrfcontroller {
 
     @GetMapping("/ssrf")
     public String index(){
-        return "ssrf";
+        return "ssrf/ssrf";
     }
 
     @PostMapping("/ssrfoutput")
@@ -24,6 +24,6 @@ public class ssrfcontroller {
             e.printStackTrace();
         }
         model.addAttribute("result",result);
-        return "ssrfoutput";
+        return "ssrf/ssrfoutput";
     }
 }

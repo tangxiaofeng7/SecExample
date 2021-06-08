@@ -4,6 +4,7 @@ com/suyu/secexample/ssrf/utils/HttpTool.class
 com/suyu/secexample/rce/controller/rcecontroller.class
 com/suyu/secexample/sql/service/impl/UserServiceImpl.class
 com/suyu/secexample/sql/mapper/UserMapper.class
+com/suyu/secexample/cors/controller/corscontroller.class
 com/suyu/secexample/sql/dao/pojo/UserQuery.class
 com/suyu/secexample/sql/controller/sqlcontroller.class
 com/suyu/secexample/ssrf/controller/ssrfcontroller.class

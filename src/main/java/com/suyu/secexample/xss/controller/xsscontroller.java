@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
@@ -19,14 +18,14 @@ public class xsscontroller {
 
     @GetMapping ("/xss")
     public String input(){
-        return "xss";
+        return "xss/xss";
     }
 
     @PostMapping ("/xssoutput")
     public String outputmessage(@RequestParam("name") String name, Model model){
         Person person = new Person(name);
         model.addAttribute("myperson",person);
-        return "xssoutput";
+        return "xss/xssoutput";
     }
 
 }

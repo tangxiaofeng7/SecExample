@@ -13,30 +13,62 @@
     background: #1abc9c;
     color: white;">
     <h1>Java漏洞演示平台</h1>
-    <button class="ui inverted secondary basic button"><a style="color: white" th:href="home">回到首页</a></button>
-</div>
-<div class="ui horizontal divider">
-    作者：唐小风
+    <button class="ui inverted secondary basic button"><a style="color: white" href="https://github.com/tangxiaofeng7/SecExample" target="_blank">靶机源码</a></button>
 </div>
 
-<table style="margin: 10px auto;
-     margin-top: 50px;"  border="2">
-    <tr>
-        <td style="width:20%"><h1>SQL</h1></td>
-        <td style="width:20%"><h1>XSS</h1></td>
-        <td style="width:20%"><h1>SSRF</h1></td>
-        <td style="width:20%"><h1>RCE</h1></td>
-        <td style="width:20%"><h1>Fastjson</h1></td>
-    </tr>
-    <tr>
-        <td><a th:href="sql">SQL注入漏洞</a></td>
-        <td><a th:href="xss">XSS漏洞</a></td>
-        <td><a th:href="ssrf">SSRF漏洞</a></td>
-        <td><a th:href="rce">RCE漏洞</a></td>
-        <td><a th:href="fastjson">Fastjson反序列化漏洞</a></td>
-    </tr>
-</table>
+
+<div style="margin-top: 50px;margin-left: 25px;margin-right: 25px" class="ui cards">
+    <div class="card">
+        <div class="content">
+            <div class="header">SQL注入漏洞</div>
+            <div class="description">SQL注入通过把SQL命令插入到Web表单提交或输入域名或页面请求的查询字符串，最终达到欺骗服务器执行指定的SQL语句</div>
+        </div>
+        <a  class="ui bottom attached button" th:href="@{/sql}" ><i class="add icon"></i>测试漏洞</a>
+
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="header">XSS漏洞</div>
+            <div class="description">XSS(Cross Site Scripting):跨站脚本攻击是指恶意攻击者往Web页面里插入恶意Script代码,当用户浏览该页之时,嵌入其中Web里面的Script代码会被执行,从而达到恶意攻击用户的目的</div>
+        </div>
+        <a  class="ui bottom attached button" th:href="@{/xss}" ><i class="add icon"></i>测试漏洞</a>
+
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="header">SSRF漏洞</div>
+            <div class="description">SSRF(Server-Side Request Forgery):服务器端请求伪造是一种由攻击者构造形成由服务端发起请求的一个安全漏洞。一般情况下，SSRF攻击的目标是从外网无法访问的内部系统。</div>
+        </div>
+        <a  class="ui bottom attached button" th:href="@{/ssrf}" ><i class="add icon"></i>测试漏洞</a>
+
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="header">CORS漏洞</div>
+            <div class="description">CORS(Cross-origin resource sharing)。因为出于安全的考虑, 浏览器不允许Ajax调用当前源之外的资源.，即浏览器的同源策略，但一个请求url的协议、域名、端口三者之间任意一个与当前页面不同即为跨域、它允许阅览器向跨源服务器发送XMLHttpRequest请求，从而克服AJAX只能同源使用的限制
+</div>
+        </div>
+        <a  class="ui bottom attached button" th:href="@{/cors1}" ><i class="add icon"></i>测试漏洞</a>
+
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="header">RCE漏洞</div>
+            <div class="description">RCE (remote code execution):指用户通过浏览器提交执行命令，由于服务器端没有针对执行函数做过滤，导致在没有指定绝对路径的情况下就执行命令，可能会允许攻击者通过改变 $PATH 或程序执行环境的其他方面来执行一个恶意构造的代码。</div>
+        </div>
+        <a  class="ui bottom attached button" th:href="@{/rce}" ><i class="add icon"></i>测试漏洞</a>
+
+    </div>
+    <div class="card">
+        <div class="content">
+            <div class="header">Fastjson反序列化漏洞</div>
+            <div class="description">通过Gadgets链绕过autoType开关，在autoType关闭的情况下仍然可能可以绕过黑白名单防御机制，实现了反序列化漏洞利用的远程代码执行效果.Fastjson历史版本中，autoType安全黑名单已被多次绕过，官方也一直在持续补充增强该黑名单，并在1.2.68版本中引入一个safeMode的配置，配置safeMode后，无论白名单和黑名单，都不支持autoType，不过默认并未开启该配置。由于autoType开关漏洞利用门槛较低，可绕过autoType限制，风险影响较大.</div>
+        </div>
+        <a  class="ui bottom attached button" th:href="@{/fastjson}" ><i class="add icon"></i>测试漏洞</a>
+    </div>
 
 </div>
+
+
 </body>
 </html>

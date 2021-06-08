@@ -11,8 +11,8 @@
     <groupId>com.suyu</groupId>
     <artifactId>secexample</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>secexample</name>
-    <description>Demo project for Spring Boot</description>
+    <name>SecExample</name>
+    <description>Java开发的漏洞靶场</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

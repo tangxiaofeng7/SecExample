@@ -21,13 +21,13 @@ public class sqlcontroller {
     public String index(Model model, UserQuery userQuery){
         PageInfo<User> userPageInfo = userService.listUserByName(userQuery);
         model.addAttribute("page",userPageInfo);
-        return "sql";
+        return "sql/sql";
     }
 
     @PostMapping("/sql")
     public String listUserByName(Model model,UserQuery userQuery){
         PageInfo<User> userPageInfo = userService.listUserByName(userQuery);
         model.addAttribute("page",userPageInfo);
-        return "sql";
+        return "sql/sql";
     }
 }

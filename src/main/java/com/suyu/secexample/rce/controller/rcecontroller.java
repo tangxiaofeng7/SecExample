@@ -17,7 +17,7 @@ public class rcecontroller {
 
     @RequestMapping("/rce")
     public String input(){
-        return "rce";
+        return "rce/rce";
     }
 
 
@@ -42,7 +42,7 @@ public class rcecontroller {
             result = s;
         }
         model.addAttribute("result",result);
-        return "rceoutput";
+        return "rce/rceoutput";
     }
 
 }
