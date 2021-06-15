@@ -20,7 +20,7 @@
 <div style="margin-top: 50px;margin-left: 25px;margin-right: 25px" class="ui cards">
     <div class="card">
         <div class="content">
-            <div class="header">SQL注入漏洞</div>
+            <div class="header">注入漏洞-SQL注入</div>
             <div class="description">SQL注入通过把SQL命令插入到Web表单提交或输入域名或页面请求的查询字符串，最终达到欺骗服务器执行指定的SQL语句</div>
         </div>
         <a  class="ui bottom attached button" th:href="@{/sql}" ><i class="add icon"></i>测试漏洞</a>
@@ -61,12 +61,18 @@
     </div>
     <div class="card">
         <div class="content">
-            <div class="header">Fastjson反序列化漏洞</div>
-            <div class="description">通过Gadgets链绕过autoType开关，在autoType关闭的情况下仍然可能可以绕过黑白名单防御机制，实现了反序列化漏洞利用的远程代码执行效果.Fastjson历史版本中，autoType安全黑名单已被多次绕过，官方也一直在持续补充增强该黑名单，并在1.2.68版本中引入一个safeMode的配置，配置safeMode后，无论白名单和黑名单，都不支持autoType，不过默认并未开启该配置。由于autoType开关漏洞利用门槛较低，可绕过autoType限制，风险影响较大.</div>
+            <div class="header">反序列化漏洞-Fastjson反序列化</div>
+            <div class="description">序列化和反序列化本身并不存在问题。但当输入的反序列化的数据可被用户控制，那么攻击者即可通过构造恶意输入，让反序列化产生非预期的对象，在此过程中执行构造的任意代码。</div>
         </div>
         <a  class="ui bottom attached button" th:href="@{/fastjson}" ><i class="add icon"></i>测试漏洞</a>
     </div>
-
+    <div class="card">
+        <div class="content">
+            <div class="header">验证码相关漏洞</div>
+            <div class="description">短信回显<br>短信轰炸<br>前端绕过验证<br>验证码爆破</div>
+        </div>
+        <a  class="ui bottom attached button" th:href="@{/messageecho}" ><i class="add icon"></i>测试漏洞</a>
+    </div>
 </div>
 
 

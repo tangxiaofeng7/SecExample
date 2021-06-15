@@ -1,6 +1,7 @@
 com/suyu/secexample/fastjson/controller/fastjsoncontroller.class
 com/suyu/secexample/fastjson/model/User.class
 com/suyu/secexample/ssrf/utils/HttpTool.class
+com/suyu/secexample/messageecho/controller/messagecontroller.class
 com/suyu/secexample/rce/controller/rcecontroller.class
 com/suyu/secexample/sql/service/impl/UserServiceImpl.class
 com/suyu/secexample/sql/mapper/UserMapper.class

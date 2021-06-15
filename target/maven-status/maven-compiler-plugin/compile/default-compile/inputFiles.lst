@@ -9,6 +9,7 @@
 /Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/cors/controller/corscontroller.java
 /Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/sql/dao/User.java
 /Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/ssrf/utils/HttpTool.java
+/Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/messageecho/controller/messagecontroller.java
 /Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/SecexampleApplication.java
 /Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/sql/service/impl/UserServiceImpl.java
 /Users/txf/Desktop/Tuya-Security/SecExample/src/main/java/com/suyu/secexample/fastjson/model/User.java

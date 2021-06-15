@@ -5,58 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a78f0932-1504-4a4c-a8a1-420458c09ee6" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/images/index.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/cors/controller/corscontroller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/cors/cors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/fastjson.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/rce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sql.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ssrf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/xss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/fastjson/controller/fastjsoncontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/fastjson/controller/fastjsoncontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/rce/controller/rcecontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/rce/controller/rcecontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/sql/controller/sqlcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/sql/controller/sqlcontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/ssrf/controller/ssrfcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/ssrf/controller/ssrfcontroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/xss/controller/xsscontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/xss/controller/xsscontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suyu/secexample/messageecho/controller/messagecontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/messageecho/messageecho.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/messageecho/messageechooutput.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fastjson.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fastjson/fastjson.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fastjsonoutput.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fastjson/fastjsonoutput.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/rce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/rce/rce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/rceoutput.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/rce/rceoutput.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sql.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sql/sql.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/ssrf.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/ssrf/ssrf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/ssrfoutput.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/ssrf/ssrfoutput.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/xss.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/xss/xss.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/xssoutput.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/xss/xssoutput.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/SecexampleApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/SecexampleApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/cors/controller/corscontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/cors/controller/corscontroller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/fastjson/controller/fastjsoncontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/fastjson/controller/fastjsoncontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/fastjson/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/fastjson/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/rce/controller/rcecontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/rce/controller/rcecontroller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/controller/sqlcontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/controller/sqlcontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/dao/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/dao/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/dao/pojo/UserQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/dao/pojo/UserQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/sql/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/ssrf/controller/ssrfcontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/ssrf/controller/ssrfcontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/ssrf/utils/HttpTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/ssrf/utils/HttpTool.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/xss/controller/xsscontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/xss/controller/xsscontroller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fastjson.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/fastjsonoutput.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/suyu/secexample/xss/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/suyu/secexample/xss/model/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/rce.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/rceoutput.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/sql.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/ssrf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/ssrfoutput.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/xss.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/xssoutput.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/secexample-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/secexample-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.suyu.secexample.SecexampleApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.suyu.secexample.SecexampleApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/suyu/secexample/SecexampleApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/suyu/secexample/SecexampleApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,15 +105,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,7 +140,13 @@
       <workItem from="1622779319900" duration="4216000" />
       <workItem from="1623045383649" duration="317000" />
       <workItem from="1623048836636" duration="3343000" />
-      <workItem from="1623120264463" duration="14561000" />
+      <workItem from="1623120264463" duration="15214000" />
+      <workItem from="1623227689782" duration="1966000" />
+      <workItem from="1623310618867" duration="5000" />
+      <workItem from="1623672837218" duration="1741000" />
+      <workItem from="1623723173885" duration="66000" />
+      <workItem from="1623723258347" duration="20000" />
+      <workItem from="1623723307545" duration="8580000" />
     </task>
     <servers />
   </component>
