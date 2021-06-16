@@ -28,10 +28,10 @@ public class messagecontroller {
 
     @PostMapping("/messageecho/testcode")
     public String testcode(Integer code1,Model model){
-        String result ="登陆失败";
+        String result ="fail";
         if (code1 != null && code1 != 0 &&Code == code1){
             System.out.println(true);
-            result ="登陆成功";
+            result ="sueecss";
         }
         model.addAttribute("code1",result);
         return "messageecho/messageechooutput";

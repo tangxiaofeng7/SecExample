@@ -13,7 +13,7 @@
 
 ### Docker启动
 
-```git
+```
 git clone https://github.com/tangxiaofeng7/SecExample.git
 cd SecExample
 docker-compose up -d
@@ -26,20 +26,25 @@ docker-compose up -d
 ### 本地调试
 
 ##### 下载源码：
-```git
+```
 git clone https://github.com/tangxiaofeng7/SecExample.git
 ```
 ##### 使用idea导入
 
 ##### 编辑 src/main/resources/application.yml 的数据库配置
 ```
-#    url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&useSSL=false
-    url: jdbc:mysql://mysql-db:3306/mybatis?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+#url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&useSSL=false
+url: jdbc:mysql://mysql-db:3306/mybatis?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
 ```
 修改为
 ```
-    url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&useSSL=false
-#    url: jdbc:mysql://mysql-db:3306/mybatis?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&useSSL=false
+#url: jdbc:mysql://mysql-db:3306/mybatis?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+```
+并且修改mysql用户名密码
+```
+username: root
+password: 你的mysql密码
 ```
 ##### 本地启动mysql数据库
 启动数据库：
