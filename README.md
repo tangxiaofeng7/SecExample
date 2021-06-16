@@ -1,17 +1,31 @@
+
+<div align="center">
+
 # SecExample
+Use secexample to study Web security vulnerabilities
+https://github.com/tangxiaofeng7/SecExample
+<br>
+</div>
 
-| 漏洞名称               | 难度 |
+[![GitHub stars](https://img.shields.io/github/stars/tangxiaofeng7/SecExample.svg)](https://github.com/tangxiaofeng7/SecExample/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/tangxiaofeng7/SecExample.svg)](https://github.com/tangxiaofeng7/SecExample/network)
+[![GitHub issues](https://img.shields.io/github/issues/tangxiaofeng7/SecExample.svg)](https://github.com/tangxiaofeng7/SecExample/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/tangxiaofeng7/SecExample.svg)](https://github.com/tangxiaofeng7/SecExample/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/tangxiaofeng7/SecExample.svg)](https://github.com/tangxiaofeng7/SecExample/commits/master)
+
+# Introduce
+| Name               | Star |
 | ---------------------- | ---- |
-| [SQL 注入漏洞]         | 🌟🌟  |
-| [XSS 漏洞]             | 🌟    |
-| [SSRF 漏洞]            | 🌟🌟  |
-| [CORS 漏洞]             | 🌟🌟    |
-| [RCE 漏洞]             | 🌟🌟  |
-| [反序列化漏洞-Fastjson反序列化] | 🌟🌟🌟🌟 |
-| [验证码相关漏洞] | 🌟🌟 |
+| [SQLI]         | 🌟🌟  |
+| [XSS]             | 🌟    |
+| [SSRF]            | 🌟🌟  |
+| [CORS]             | 🌟🌟    |
+| [RCE]             | 🌟🌟  |
+| [Fastjson] | 🌟🌟🌟🌟 |
+| [Verification] | 🌟🌟 |
 
 
-### Docker启动
+### Installation
 
 ```
 git clone https://github.com/tangxiaofeng7/SecExample.git
@@ -19,58 +33,16 @@ cd SecExample
 docker-compose up -d
 ```
 
-然后访问：http://localhost:8080
+view: http://localhost:8080
+
+[![asciicast](https://asciinema.org/a/gcuay3zNoRUZ85BTPgjpGukuC.svg)](https://asciinema.org/a/gcuay3zNoRUZ85BTPgjpGukuC)
 
 
+### Screenshot
 
-### 本地调试
-
-##### 下载源码：
-```
-git clone https://github.com/tangxiaofeng7/SecExample.git
-```
-##### 使用idea导入
-
-##### 编辑 src/main/resources/application.yml 的数据库配置
-```
-#url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&useSSL=false
-url: jdbc:mysql://mysql-db:3306/mybatis?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
-```
-修改为
-```
-url: jdbc:mysql://localhost:3306/mybatis?serverTimezone=UTC&useSSL=false
-#url: jdbc:mysql://mysql-db:3306/mybatis?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
-```
-并且修改mysql用户名密码
-```
-username: root
-password: 你的mysql密码
-```
-##### 本地启动mysql数据库
-启动数据库：
-```
-mysql.server start
-```
-进入 mysql终端：
-```
-mysql -u root -p
-```
-导入sql文件：
-```
-source /xx/SecExample/mysql/init.sql(绝对路径)
-```
-
-##### 下载pom依赖
-```
-右键pom.xml =》 maven => 重新加载项目
-```
-##### 运行项目
-```
-运行 SecexampleApplication
-```
-
-
-### 靶场展示
-
-#### 首页
 ![index.png](images/index.png)
+
+# Contributors
+
+<a href="https://github.com/tangxiaofeng7" target="_blank">
+    <img width=50 src="https://avatars.githubusercontent.com/u/45926593?s=60&v=4"></a>
