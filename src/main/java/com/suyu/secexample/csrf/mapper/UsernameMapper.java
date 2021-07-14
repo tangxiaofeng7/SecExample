@@ -8,6 +8,6 @@ import java.util.List;
 
 @Mapper
 @Repository
-public interface UserMapper {
-    public List<User> addUser(User user);
+public interface UsernameMapper {
+    public void addUser(User user);
 }

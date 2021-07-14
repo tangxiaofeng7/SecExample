@@ -8,25 +8,18 @@
         select * from mybatis.user;
     </select>
 
-
-<!--    <select id="listUserByName" parameterType="com.suyu.secexample.sql.dao.pojo.UserQuery" resultType="com.suyu.secexample.sql.dao.User">-->
-<!--        select * from mybatis.user-->
-<!--        <where>-->
-<!--            <if test="name != null and name != ''">-->
-<!--                and `name` like concat('%',#{name},'%')-->
-<!--            </if>-->
-<!--        </where>-->
-<!--    </select>-->
-
-<!--    <select id="listUserByName" parameterType="com.suyu.secexample.sql.dao.pojo.UserQuery" resultType="com.suyu.secexample.sql.dao.User">-->
-<!--        select * from mybatis.user where name = #{name}-->
-<!--    </select>-->
     <select id="listUserByName" parameterType="com.suyu.secexample.sql.dao.pojo.UserQuery" resultType="com.suyu.secexample.sql.dao.User">
         select * from mybatis.user
             <where>
                 <if test="name != null and name != ''">
-                    name = ${name}
+                    name ='${name}'
                 </if>
             </where>
     </select>
+
+    <insert id="addUser" parameterType="com.suyu.secexample.csrf.model.User">
+        insert into user(id,name,pwd)
+        values (#{id},#{name},#{pwd})
+    </insert>
+
 </mapper>

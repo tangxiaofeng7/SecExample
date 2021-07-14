@@ -36,6 +36,14 @@
     </div>
     <div class="card">
         <div class="content">
+            <div class="header">CSRF漏洞</div>
+            <div class="description">CSRF(Cross-site request forgery):CSRF，跨站请求伪造，在受害者通过浏览器登录某个恶意URL的时候，通过伪造请求达到跨站请求伪造（常见于商城类网站或者自己开发的会员系统）</div>
+        </div>
+        <a  class="ui bottom attached button" th:href="@{/csrf}" ><i class="add icon"></i>测试漏洞</a>
+
+    </div>
+    <div class="card">
+        <div class="content">
             <div class="header">SSRF漏洞</div>
             <div class="description">SSRF(Server-Side Request Forgery):服务器端请求伪造是一种由攻击者构造形成由服务端发起请求的一个安全漏洞。一般情况下，SSRF攻击的目标是从外网无法访问的内部系统。</div>
         </div>

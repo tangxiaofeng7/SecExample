@@ -14,6 +14,7 @@ https://github.com/tangxiaofeng7/SecExample
 | ---------------------- | ---- |
 | [SQLI]         | 🌟🌟  |
 | [XSS]             | 🌟    |
+| [CSRF]             | 🌟    |
 | [SSRF]            | 🌟🌟  |
 | [CORS]             | 🌟🌟    |
 | [RCE]             | 🌟🌟  |
