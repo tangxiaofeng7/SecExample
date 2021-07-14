@@ -1,0 +1,10 @@
+/.mvn/
+/target/test-classes/
+/target/secexample-1.0.jar.original
+/target/surefire-reports/
+/target/maven-status/
+/target/maven-archiver/
+/target/generated-test-sources/
+/target/generated-sources/
+/target/classes/
+/src/test/
