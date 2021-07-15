@@ -15,9 +15,14 @@
     <button class="ui inverted secondary basic button"><a style="color: white" th:href="home">回到首页</a></button>
 </div>
 
-<div style="text-align: center;margin: 0px auto;
-     margin-top: 50px;">
-您请求的结果为：<p th:text="${result}"></p>
-</div>
+<form th:action="@{/speloutput}" method="post" style="text-align: center;margin: 0px auto;
+     margin-top: 50px;"  border="10">
+    <input type="text" name="selector" placeholder="请输入用户名查找">
+    <input type="submit" value="提交">
+    <p></p>
+    <p>提示：T(java.lang.Runtime).getRuntime().exec('open -a Calculator.app')</p>
+</form>
+
+
 </body>
 </html>

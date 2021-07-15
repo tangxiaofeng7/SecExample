@@ -23,6 +23,9 @@ public class rcecontroller {
 
     @PostMapping("/rceoutput")
     public String index(@RequestParam("command") String command, Model model){
+        if(command=="" | command==null){
+            command= "whoami";
+        }
         Process p = null;
         String result = null;
         try {
